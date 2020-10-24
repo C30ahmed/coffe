@@ -9,13 +9,13 @@ body{
     background-image:url(./image/how-to-roast-coffee-beans.jpeg) ;
     background-repeat: no-repeat;
     
-    background-size: 100% 100%;
+    background-size: 100% 100vh;
 
 }  
 
 h1{
     font-weight: 900;
-    font-size: px;
+    font-size: 35px;
 
 }
 
@@ -43,7 +43,7 @@ img{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-between ;
+    justify-content: space-around ;
     align-items: center ;
 }
 

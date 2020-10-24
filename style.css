@@ -1,41 +1,79 @@
-html, body {
+
     
 
-    height: 100%;
-  }
   
-  .full-height {
-    height: 100%;
-  }
  
 body{
-    /* text-align: center; */
+    height: 100%;
+    text-align: center;
     background-image:url(./image/how-to-roast-coffee-beans.jpeg) ;
     background-repeat: no-repeat;
-    height: 100vh ;
+    
     background-size: 100% 100%;
 
 }  
 
+h1{
+    font-weight: 900;
+    font-size: px;
+
+}
 
 
 
 
 img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     
 }
 
 
-.basic{
-    width: 100%;
+
+
+.french{
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px white;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between ;
+    align-items: center ;
 }
 
-.french-press{
-    background-image: url(./image/th\ \(3\).jpg);
+h2{
+    font-weight: 900;
+    font-size: 25px;
 }
+
+h3{
+  font-weight: 750;
+  font-size: 20px;  
+}
+p{
+    font-weight: 540s;
+    font-size: 18px;
+}
+
+.video{
+    width: 200px;
+    height: 110px;
+}
+
+.container {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  button{
+      background-color: dc2f02 ;
+  }

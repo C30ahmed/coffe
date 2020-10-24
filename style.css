@@ -77,3 +77,9 @@ p{
   button{
       background-color: dc2f02 ;
   }
+
+  .img{
+      margin-top: 20px;
+      margin-bottom: auto;
+      margin-right: 10px;
+     }
